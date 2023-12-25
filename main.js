@@ -12,16 +12,10 @@ function Counter(){
     )
 }
 
-// function addCounter(){
-//     return(
-//         <div className = "addounter">
-//         </div>
-//     )
-// }
-
 function App() {
     return (
     <div class = "container">
+        <h1>Today: {(new Date()).toDateString()}</h1>
         <h1>Sum = 0</h1>
         <button>Add Counter</button>
         <addCounter/>
